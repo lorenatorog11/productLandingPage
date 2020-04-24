@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta name="title" content="productLandingPage">
+    <meta name="description" content="Pagina de venta de pasteles">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="styles/main.css" type="text/css"/>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+</head>
+<body>
+    <header id="header">
+        <div id="logo">
+            <div><img id="header-img" src="imagenes/logo.png" alt="Logo_pasteleria"/></div>
+            <div><p id="name"><strong>Pasteleria de La Abuela</strong></p></div>
+        </div>
+        <nav id="nav-bar">
+            <a href="#nosotros"  class="nav-link">Nosotros</a>
+            <a href="#nuestro-trabajo" class="nav-link">Nuestro trabajo</a>
+            <a href="#nuestros-precios" class="nav-link">Precios</a>
+            <a href="#form" class="nav-link">Contactanos</a>
+        </nav>
+    </header>
+    <main id="Pasteleria">
+        <h1 >La Pasteleria de La Abuela</h1>
+        <section id="nosotros">
+            <div id="div-esencia">
+                <div>
+                    <img id="esencia" src="imagenes/esencia.png" alt="esencia productos"/>   
+                </div>
+                <div>
+                    <h2 class="title">La esencia de nuestros productos</h2>
+                    <p class="p">La masa de nuestros productos es elaborada con técnicas caseras dándole un toque de sabor de casa a nuestros pasteles, aplicamos las últimas técnicas en decoración para que nuestros pasteles sean el punto focal en tu celebración. </p>
+                </div>
+            </div>
+            <div id="div-temas">
+                <div>
+                    <img id="temas" src="imagenes/temas.png" alt="temas pasteles"/>   
+                </div>
+                <div>
+                    <h2 class="title">Temáticas especiales</h2>
+                    <p class="p">Sabemos que para ti es importante que toda tu fiesta siga la temática de tus sueños, es por esto que hacemos que tu pastel cumpla esas expectativas; realizamos pasteles de tu personaje favorito, de terror, de amor, lo que tú quieras. </p>
+                </div>
+            </div>
+            <div id="div-entrega">
+                <div class="title-ent">
+                    <img id="entrega" src="imagenes/entrega.png" alt="entrega rápida"/>   
+                </div>
+                <div>
+                    <h2 class="title">Entrega responsable</h2>
+                    <p class="p">No queremos que nada salga mal en tu día, por esto realizamos de manera responsable y gratis la entrega de tu pastel, para que puedas disfrutas tu fiesta. </p>
+                </div>
+            </div>          
+        </section>
+        <section id="nuestro-trabajo"class="nuestro-trabajo" controls>
+            <h2>Nuestro trabajo</h2>
+            <iframe id="iframe" width="560" height="315" src="https://www.youtube.com/embed/kk0rAWy9Deo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+        <section id="nuestros-precios" class="nuestros-precios">
+            <h2>Nuestros Precios</h2>
+            <section id="precios">                
+                <article class="art-precios">
+                    <div>
+                        <h3 class="text">Línea Clásica</h3>
+                        <p >Pasteles con diseños sencillos, usados para cualquier tipo de evento.</p>
+                        <p class="text">1lb $14.000</p>
+                    </div>
+                    <div>
+                        <button class="button" type="button">Más información</button>
+                    </div>
+                </article>
+                <article class="art-precios">
+                    <div>
+                        <h3 class="text">Eventos sociales</h3>
+                        <p>Pasteles diseños para eventos como matrimonios, primeras comuniones, bautizos, Fiestas de quince años, entre otros. </p>
+                        <p class="text">2lb $60.000</p>
+                    </div>
+                    <div>
+                        <button class="button" type="button">Más información</button>
+                    </div>
+                </article>
+                <article class="art-precios">
+                    <div>
+                        <h3 class="text">Temáticas</h3>
+                        <p>Pasteles personalizados a tu gusto.</p>
+                        <p class="text">2lb $75.000</p>
+                    </div>
+                    <div>
+                        <button class="button" type="button">Más información</button>
+                    </div>
+                </article>
+            </section>
+        </section>
+        <section>
+            <form id="form" action="https://www.freecodecamp.com/email-submit" >
+                <div id="div-info">
+                    <h2 id="contacto">Contactanos</h2>
+                    <p  id="informacion">Para mayor información envianos tus requerimientos y dejanos tu correo, nosotros te contactaremos</p>
+                </div>
+                <div id="div-requerimientos">
+                    <label for="Requerimientos">Requerimientos</label>
+                    <input id="Requerimientos" type="text" placeholder="Escribe tu requerimiento" required >
+                </div>
+                <div id="div-email">
+                    <label for="email">E-mail</label>
+                    <input id="email" type="email" placeholder="Ingresa tu email" required>
+                </div>
+                <div id="div-submit">
+                    <input id="submit" type="submit" src="https://www.freecodecamp.com/email-submit">
+                </div>
+            </form>
+        </section>
+    </main> 
+    <footer>
+        <p>Copyright 2020, Pasteleria de La Abuela</p>
+    </footer>      
+</body>
+</html>
